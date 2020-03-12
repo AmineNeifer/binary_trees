@@ -13,6 +13,13 @@ int max(int one, int two)
 		return (one);
 	return (two);
 }
+/**
+ * binary_tree_height - looks for tree height.
+ *
+ * @tree: root.
+ *
+ * Return: height.
+ */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	int right_height;
